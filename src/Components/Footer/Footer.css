@@ -1,0 +1,123 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-logo p {
+    color: #383838;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #252525;
+    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    cursor: pointer;
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-icons-container {
+    padding: 10px 15px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.footer-copywright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-copywright hr {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #7c7c7c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-logo p {
+        font-size: 28px;
+    }
+
+    .footer-links {
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .footer-social-icon {
+        gap: 20px;
+    }
+
+    .footer-icons-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-copywright {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-logo p {
+        font-size: 24px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-social-icon {
+        gap: 15px;
+    }
+
+    .footer-copywright hr {
+        width: 90%;
+    }
+}
