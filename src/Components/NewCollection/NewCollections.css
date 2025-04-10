@@ -45,7 +45,9 @@
 
 @media (max-width: 600px) {
     .collections {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px;
     }
 
     .new-collections h1 {
