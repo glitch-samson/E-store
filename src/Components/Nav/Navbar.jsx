@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="nav-logo">
         <img src={logo} alt="Logo" />
-        <p>Tima's Closet</p>
+        <p>Amme's Luxury</p>
       </div>
 
       <div className="nav-toggle-icon" onClick={toggleMenu}>
